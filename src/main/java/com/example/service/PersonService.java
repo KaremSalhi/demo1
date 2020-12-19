@@ -40,6 +40,13 @@ public class PersonService {
 		p.setLastName("Mahmoud");
 		persons.add(p);
 		
+		p = new Person();
+		p.setId("5");
+		p.setAge(20);
+		p.setFirstName("salhi");
+		p.setLastName("karem");
+		persons.add(p);
+		
 	}
 	public Person getPerson(String id) {
 		for(Person person:persons) {
