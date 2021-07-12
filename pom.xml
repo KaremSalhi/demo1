@@ -45,5 +45,18 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+ <distributionManagement>
+	 
+   <repository>
+      <id>nexus-REL</id>
+      <url>http://192.168.154.132:8081/repository/Jenkins-nexus-REL/</url>
+    </repository>
+	 
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://192.168.154.132:8081/repository/Jenkins-nexus-Snap/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
